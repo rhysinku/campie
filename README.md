@@ -25,7 +25,8 @@ real webcam ──► OpenCV ──► MediaPipe Hands ──► mode (draw / ob
 ## Quick start
 
 ```bash
-cd ~/forStudy/cam-py
+git clone https://github.com/rhysinku/campie.git
+cd campie
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -57,7 +58,7 @@ keys are in [docs/usage.md](docs/usage.md).
 ## Project structure
 
 ```
-cam-py/
+campie/
 ├── main.py                 # entry point: run this
 ├── requirements.txt
 ├── calibration.json        # created by calibration (per user, not committed)

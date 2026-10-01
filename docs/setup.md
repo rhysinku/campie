@@ -6,7 +6,8 @@ The project uses its own virtual environment, so it doesn't depend on the system
 Python.
 
 ```bash
-cd ~/forStudy/cam-py
+git clone https://github.com/rhysinku/campie.git
+cd campie
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
